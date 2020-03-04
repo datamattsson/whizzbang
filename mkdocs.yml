@@ -10,16 +10,16 @@ google_analytics:
   - 'UA-79554149-3'
   - 'https://whizzbang.datamattsson.io'
 nav:
-  - Home: 'index.md'
-  - Installation:
+  - HOME: 'index.md'
+  - INSTALLATION:
     - 'Getting started': 'installation/getting_started.md'
-  - Drivers:
+  - DRIVERS:
     - Soap: 'soap.md'
     - Schampoo: 'soap.md'
-  - Use Cases:
+  - USE CASES:
     - Wash Cars: 'cars.md'
     - Run to errands around town: 'usecase2.md'
     - This is a very long thing to do as we love long names: 'long.md'
-  - Contributing: 'contributing.md'
+  - CONTRIBUTING: 'contributing.md'
   - FAQ: 'faq.md'
-  - Markdown Testing: 'sample.md'
+  - Markdown sandbox: 'sample.md'
