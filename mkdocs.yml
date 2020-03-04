@@ -20,4 +20,4 @@ nav:
   - Products:
     - 3PAR: 'foo.md'
 extra_css:
-  - css/extra.css
+  - css/datamattsson.css
