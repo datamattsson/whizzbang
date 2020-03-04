@@ -1,12 +1,12 @@
 # FAQ
 This is the FAQ.
 
-```bash
+``` bash
 #!/bin/bash
 echo "foobar"
 ```
 Text
-```python
+``` python
 foobar: bar
 bar:
 - Item
