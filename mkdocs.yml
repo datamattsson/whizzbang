@@ -15,3 +15,6 @@ nav:
     - 3PAR: 'foo.md'
 extra_css:
   - css/hpedev.css
+google_analytics:
+  - 'UA-79554149-3'
+  - 'auto'
