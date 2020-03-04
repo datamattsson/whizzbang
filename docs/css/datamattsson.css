@@ -5,19 +5,6 @@
     background: #000C22;
 }
 
-.icon:visited, .icon-home:visited, .icon-home:hover, .icon:hover {
-    color: #00C781;
-    background: #0A2036;
-}
-
-a {
-    color: #00C781;
-}
-
-a:visited {
-    color: #00C781;
-}
-
 .wy-menu-vertical a:hover {
     background-color: #00C781;
     color: #fff;
