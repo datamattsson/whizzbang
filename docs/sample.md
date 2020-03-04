@@ -1,3 +1,4 @@
+[TOC]
 #Heading 1
 ##Heading 2
 ###Heading 3
@@ -101,3 +102,14 @@ Table
 
 # Heading 1, but further down
 Text
+
+```bash hl_lines="1 4 5"
+#!/bin/bash
+echo 2
+echo 3
+echo 4
+echo 5
+echo 6
+```
+
+![local image](img/hpe-dev-logo-mark-anim.svg)
