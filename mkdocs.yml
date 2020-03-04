@@ -1,19 +1,12 @@
 site_name: Whizzbang
 theme: 'readthedocs'
 markdown_extensions:
-    - toc:
-        permalink: True
-    - admonition
-    - smarty
-    - wikilinks
-    - codehilite
-site_favicon: 'images/favicon.ico'
+  - toc:
+      permalink: True
 extra:
   palette:
       primary: '#087da1'
       accent: '#00a889'
-  font:
-      text: 'Source Sans Pro'
   social:
     - type: 'github'
       link: 'https://github.com/drajen'
@@ -21,11 +14,11 @@ extra:
       link: 'https://twitter.com/datamattsson'
 repo_name: 'drajen/whizzbang'
 repo_url: 'https://github.com/drajen/whizzbang'
-copyright: 'Copyright © 2020 Data Mattsson <a href="https://datamattsson.io">Data Mattsson</a>'
+copyright: 'Copyright © 2020 <a href="https://datamattsson.io">Data Mattsson</a>'
 google_analytics:
   - 'UA-79554149-3'
   - 'auto'
-pages:
+nav:
   - Home: 'index.md'
   - Installation:
       - 'Getting started': 'installation/gettingstarted.md'
