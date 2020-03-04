@@ -4,17 +4,22 @@ theme: 'readthedocs'
 repo_name: 'drajen/whizzbang'
 repo_url: 'https://github.com/drajen/whizzbang'
 copyright: 'Copyright © 2020 <a href="https://datamattsson.io">Data Mattsson</a>'
-nav:
-  - Home: 'index.md'
-  - Installation:
-    - 'Getting started': 'installation/getting_started.md'
-  - Contributing:
-    - 'General':  'contributing.md'
-  - FAQ: 'faq.md'
-  - Products:
-    - 3PAR: 'foo.md'
 extra_css:
   - css/hpedev.css
 google_analytics:
   - 'UA-79554149-3'
   - 'https://whizzbang.datamattsson.io'
+nav:
+  - Home: 'index.md'
+  - Installation:
+    - 'Getting started': 'installation/getting_started.md'
+  - Drivers:
+    - Soap: 'soap.md'
+    - Schampoo: 'soap.md'
+  - Use Cases:
+    - Wash Cars: 'cars.md'
+    - Run to errands around town: 'usecase2.md'
+    - This is a very long thing to do as we love long names: 'long.md'
+  - Contributing: 'contributing.md'
+  - FAQ: 'faq.md'
+  - Markdown Testing: 'sample.md'
