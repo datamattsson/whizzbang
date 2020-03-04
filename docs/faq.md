@@ -1,4 +1,4 @@
-# FAQ
+# Frequently Asked Questions
 This is the FAQ.
 
 ``` bash
