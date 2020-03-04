@@ -17,4 +17,4 @@ extra_css:
   - css/hpedev.css
 google_analytics:
   - 'UA-79554149-3'
-  - 'auto'
+  - 'https://whizzbang.datamattsson.io'
