@@ -21,7 +21,7 @@ google_analytics:
 nav:
   - Home: 'index.md'
   - Installation:
-      - 'Getting started': 'installation/gettingstarted.md'
+      - 'Getting started': 'gettingstarted.md'
   - Contributing:
       - 'General':  'contributing.md'
   - FAQ: 'faq.md'
