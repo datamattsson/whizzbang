@@ -6,8 +6,7 @@ markdown_extensions:
     - admonition
     - smarty
     - wikilinks
-    - codehilite:
-        linenums: False
+    - codehilite
 site_favicon: 'images/favicon.ico'
 extra:
   palette:
