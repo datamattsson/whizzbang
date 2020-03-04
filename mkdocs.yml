@@ -1,15 +1,9 @@
 site_name: Whizzbang
 site_url: 'https://whizzbang.datamattsson.io'
 theme: 'readthedocs'
-markdown_extensions:
-  - toc:
-      permalink: True
 repo_name: 'drajen/whizzbang'
 repo_url: 'https://github.com/drajen/whizzbang'
 copyright: 'Copyright © 2020 <a href="https://datamattsson.io">Data Mattsson</a>'
-google_analytics:
-  - 'UA-79554149-3'
-  - 'auto'
 nav:
   - Home: 'index.md'
   - Installation:
@@ -20,4 +14,4 @@ nav:
   - Products:
     - 3PAR: 'foo.md'
 extra_css:
-  - css/datamattsson.css
+  - css/hpedev.css
