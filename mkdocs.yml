@@ -4,15 +4,6 @@ theme: 'readthedocs'
 markdown_extensions:
   - toc:
       permalink: True
-extra:
-  palette:
-      primary: '#087da1'
-      accent: '#00a889'
-  social:
-    - type: 'github'
-      link: 'https://github.com/drajen'
-    - type: 'twitter'
-      link: 'https://twitter.com/datamattsson'
 repo_name: 'drajen/whizzbang'
 repo_url: 'https://github.com/drajen/whizzbang'
 copyright: 'Copyright © 2020 <a href="https://datamattsson.io">Data Mattsson</a>'
@@ -22,7 +13,11 @@ google_analytics:
 nav:
   - Home: 'index.md'
   - Installation:
-      - 'Getting started': 'gettingstarted.md'
+    - 'Getting started': 'gettingstarted.md'
   - Contributing:
-      - 'General':  'contributing.md'
+    - 'General':  'contributing.md'
   - FAQ: 'faq.md'
+  - Products:
+    - 3PAR: 'foo.md'
+extra_css:
+  - css/extra.css
