@@ -1,4 +1,5 @@
 site_name: Whizzbang
+site_url: 'https://whizzbang.datamattsson.io'
 theme: 'readthedocs'
 markdown_extensions:
   - toc:
