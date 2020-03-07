@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Markdown sandbox - Whizzbang</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../css/hpedev.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Markdown sandbox";
+    var mkdocs_page_input_path = "sample.md";
+    var mkdocs_page_url = "/sample/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-79554149-3', 'https://whizzbang.datamattsson.io');
+      ga('send', 'pageview');
+  </script>
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Whizzbang</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">HOME</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">INSTALLATION</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../installation/getting_started/">Getting started</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">DRIVERS</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../soap.md">Soap</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../soap.md">Schampoo</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">USE CASES</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../cars.md">Wash Cars</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../usecase2.md">Run to errands around town</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../long.md">This is a very long thing to do as we love long names</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../contributing.md">CONTRIBUTING</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../faq/">FAQ</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Markdown sandbox</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#heading-1">Heading 1</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#heading-2">Heading 2</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#heading-1-but-further-down">Heading 1, but further down</a></li>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Whizzbang</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Markdown sandbox</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/drajen/whizzbang/edit/master/docs/sample.md"> Edit on drajen/whizzbang</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <div class="toc">
+<ul>
+<li><a href="#heading-1">Heading 1</a><ul>
+<li><a href="#heading-2">Heading 2</a><ul>
+<li><a href="#heading-3">Heading 3</a><ul>
+<li><a href="#heading-4">Heading 4</a><ul>
+<li><a href="#heading-5">Heading 5</a><ul>
+<li><a href="#heading-6">Heading 6</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#heading-1-but-further-down">Heading 1, but further down</a></li>
+</ul>
+</div>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<hr />
+<p>Paragraph
+text <code>Inline Code</code> text      <br />
+~~Mistaken text.~~  <br />
+<em>Italics</em>  <br />
+<strong>Bold</strong>    </p>
+<hr />
+<p>Tasks
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal <strong>formatting</strong>
+- [ ] incomplete
+- [x] completed</p>
+<hr />
+<p>Code Blocks</p>
+<pre><code>4 space indention
+makes full-width
+standard code blocks
+</code></pre>
+<pre><code class="js">var now = new Date();
+
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+var date = ((now.getDate()&lt;10) ? &quot;0&quot; : &quot;&quot;)+ now.getDate();
+
+function fourdigits(number)    {
+    return (number &lt; 1000) ? number + 1900 : number;
+                                }
+today =  days[now.getDay()] + &quot;, &quot; +
+         months[now.getMonth()] + &quot; &quot; +
+         date + &quot;, &quot; +
+         (fourdigits(now.getYear())) ;
+
+document.write(today);
+</code></pre>
+
+<pre><code class="css">#sc_drag_area {
+  height:100px;
+  left:150px;
+  position: absolute;
+  top:100px;
+  width:250px;
+  z-index: 9999;
+}
+</code></pre>
+
+<hr />
+<ul>
+<li>List item one</li>
+<li>List item two<ul>
+<li>A nested item</li>
+</ul>
+</li>
+</ul>
+<hr />
+<ol>
+<li>Number list item one      <br />
+    1.1. A nested item</li>
+<li>Number list item two</li>
+<li>Number list item three</li>
+</ol>
+<hr />
+<blockquote>
+<p>Quote</p>
+<p>Second line Quote</p>
+</blockquote>
+<hr />
+<p>Standard link =  http://ghost.org  <br />
+<a href="http://ghost.org">Custom Text Link</a></p>
+<hr />
+<p><img alt="Image" src="https://cfl.dropboxstatic.com/static/images/illustration_catalog/404_error-illo@2x.png" /></p>
+<hr />
+<p>Table</p>
+<table>
+<thead>
+<tr>
+<th align="left">Left-Aligned</th>
+<th align="center">Center Aligned</th>
+<th align="right">Right Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">col 3 is</td>
+<td align="center">some wordy text</td>
+<td align="right">$1600</td>
+</tr>
+<tr>
+<td align="left">col 2 is</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+<tr>
+<td align="left">zebra stripes</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+<h1 id="heading-1-but-further-down">Heading 1, but further down</h1>
+<p>Text</p>
+<pre><code class="bash">#!/bin/bash
+echo 2
+echo 3
+echo 4
+echo 5
+echo 6
+</code></pre>
+
+<p><img alt="local image" src="../img/hpe-dev-logo-mark-anim.svg" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../faq/" class="btn btn-neutral" title="FAQ"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright © 2020 <a href="https://datamattsson.io">Data Mattsson</a></p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../faq/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

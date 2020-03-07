@@ -1,0 +1,11 @@
+.wy-side-nav-search, .wy-nav-top {
+    background: #0A2036;
+}
+.wy-nav-side {
+    background: #000C22;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #00C781;
+    color: #fff;
+}
