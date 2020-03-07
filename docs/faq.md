@@ -1,6 +1,8 @@
 # Frequently Asked Questions
 This is the FAQ.
 
+Is this rebuilt or not?
+
 ``` bash
 #!/bin/bash
 echo "foobar"
